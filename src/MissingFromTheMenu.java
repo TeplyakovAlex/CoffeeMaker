@@ -1,4 +1,4 @@
-class NoName implements Drink {
+class MissingFromTheMenu implements Drink {
 
     @Override
     public void make() {

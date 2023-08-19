@@ -42,7 +42,7 @@ public class App {
             }
             default -> {
                 coffeeMachine.setDrink(
-                        new NoName()
+                        new MissingFromTheMenu()
                 );
 
                 coffeeMachine.startTesting();
